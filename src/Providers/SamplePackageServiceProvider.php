@@ -1,13 +1,13 @@
 <?php
 
-namespace MajidGholamheidari\SamplePackege\Providers;
+namespace MajidGholamheidari\SamplePackage\Providers;
 
 use App\Http\Kernel;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\ServiceProvider;
 use Majidheidari\SharedModels\Http\Middleware\CustomMiddleware;
 
-class SharedModelsProvider extends ServiceProvider
+class SamplePackageServiceProvider extends ServiceProvider
 {
 
     /**
