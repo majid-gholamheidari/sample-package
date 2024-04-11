@@ -10,6 +10,7 @@ use Majidheidari\SharedModels\Http\Middleware\CustomMiddleware;
 class SamplePackageServiceProvider extends ServiceProvider
 {
 
+
     /**
      * Register any application services.
      */
