@@ -1,6 +1,6 @@
 <?php
 
-namespace Majidheidari\SharedModels\Providers;
+namespace MajidGholamheidari\SamplePackege\Providers;
 
 use App\Http\Kernel;
 use Illuminate\Contracts\Container\BindingResolutionException;

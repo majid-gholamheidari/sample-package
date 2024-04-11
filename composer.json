@@ -1,5 +1,5 @@
 {
-    "name": "majidheidari/shared-models",
+    "name": "majid-gholamheidari/sample-package",
     "description": "Use shared Models such as User.php",
     "type": "library",
     "license": "MIT",
@@ -11,14 +11,14 @@
     ],
     "autoload": {
         "psr-4": {
-            "Majidheidari\\SharedModels\\": "src/"
+            "MajidGholamheidari\\SamplePackege\\": "src/"
         }
     },
     "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
-                "Majidheidari\\SharedModels\\SharedModelsServiceProvider"
+                "MajidGholamheidari\\SamplePackege\\SharedModelsServiceProvider"
             ]
         }
     },
