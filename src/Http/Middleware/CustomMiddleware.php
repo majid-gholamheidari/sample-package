@@ -1,6 +1,6 @@
 <?php
 
-namespace MajidGholamheidari\SamplePackege\Http\Middleware;
+namespace MajidGholamheidari\SamplePackage\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;

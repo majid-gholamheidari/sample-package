@@ -28,6 +28,8 @@ class SamplePackageServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        $this->loadMigrationsFrom(__DIR__.'/database/migrations');
+
         $kernel = $this->app->make(Kernel::class);
         $kernel->pushMiddleware(CustomMiddleware::class);
     }
