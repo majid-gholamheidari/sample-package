@@ -1,6 +1,6 @@
 <?php
 
-namespace MajidGholamheidari\SamplePackege\Models;
+namespace MajidGholamheidari\SamplePackage;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
