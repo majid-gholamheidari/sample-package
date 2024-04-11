@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MajidGholamheidari\\SamplePackage\\SamplePackageServiceProvider"
+                "MajidGholamheidari\\SamplePackage\\Providers\\SamplePackageServiceProvider"
             ]
         }
     },
